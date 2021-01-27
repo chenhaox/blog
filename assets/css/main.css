@@ -3070,6 +3070,13 @@ input, select, textarea {
 	}
 
 /* Header */
+	.QAQ{
+		-moz-transition: opacity .5s ease;
+		-webkit-transition: opacity .5s ease;
+		-ms-transition: opacity .5s ease;
+		transition: opacity .5s ease;
+		opacity: 1;
+	}
 
 	#header {
 		padding: 5em 5em 1em 5em ;
@@ -3078,6 +3085,7 @@ input, select, textarea {
 
 		#header h1 {
 			margin: 0 0 0.25em 0;
+			/* chen */
 		}
 
 		#header p {
@@ -3094,14 +3102,14 @@ input, select, textarea {
 			}
 
 			#header.alt > * {
-				-moz-transition: opacity 3s ease;
-				-webkit-transition: opacity 3s ease;
-				-ms-transition: opacity 3s ease;
-				transition: opacity 3s ease;
-				-moz-transition-delay: 0.5s;
-				-webkit-transition-delay: 0.5s;
-				-ms-transition-delay: 0.5s;
-				transition-delay: 0.5s;
+				-moz-transition: opacity .5s ease;
+				-webkit-transition: opacity .5s ease;
+				-ms-transition: opacity .5s ease;
+				transition: opacity .5s ease;
+				/*-moz-transition-delay: 0.5s;*/
+				/*-webkit-transition-delay: 0.5s;*/
+				/*-ms-transition-delay: 0.5s;*/
+				/*transition-delay: 0.5s;*/
 				opacity: 1;
 			}
 

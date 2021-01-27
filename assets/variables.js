@@ -3,9 +3,12 @@
     var parameter = {
         "menuid":"menu",
         "title": "Chen's Technical Blog",
-        "subtitle": "TSET FOR SUBTITE",
+        "subtitle": "GO",
         "blogpath": "./blog/",
-        "wrapper": $id("wrapper"),
+        "main": $id("main"),
+        "header": $id("header"),
+        "header_title":$id("header_title"),
+        "header_subtitle":$id("header_subtitle"),
     }
 
     w["parameter"] = parameter;
