@@ -1,2 +1,2 @@
 # blog
-The source for http://blog.chenhao.info
+The source code for http://blog.chenhao.info
