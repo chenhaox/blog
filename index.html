@@ -57,10 +57,10 @@
 
 		<script src="assets/utils.js"></script>
 		<script src="assets/variables.js"></script>
-		<script src="assets/md.js"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.2.0/markdown-it.js" integrity="sha512-ivJskyHEWoa1WrFlVDWM7o8I7ZKt2dF97kUVMKHT4CPSWxZ7VHuCydjiED3pjOpN0WuT2XA3pK4HrZYNsZ4OqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script src="assets/mvc2.js"></script>
 		<script>
+			window.md = window.markdownit()
 			window.onload = ()=> {
 				document.getElementById("header_title").innerText = window["parameter"]["title"]
 				document.getElementById("header_subtitle").innerText = window["parameter"]["subtitle"]
